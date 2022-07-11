@@ -1,13 +1,97 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+:root {
+  --color-font2: #000;
+  --color-primary: rgb(230, 230, 230);
+  --color-primary1: brown;
+  --color-bg: rgba(123, 190, 235, 0.607);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: content-box;
+  list-style: none;
+}
+body {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary1);
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 0.7rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-primary1);
+}
+h5 {
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  padding-top: 2rem;
+}
+p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+section {
+  margin-bottom: 5rem;
+}
+section > h5,
+section > h3 {
+  text-align: center;
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+.btn {
+  color: #000;
+  padding: 0.8rem 1.7rem;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background: var(--color-font);
+  color: var(--color-bg);
+}
+.btn-primary {
+  color: white;
+  color: var(--color-primary1);
+}
+.btn-primary:hover {
+  background: #fff;
+  color: var(--color-font);
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 }

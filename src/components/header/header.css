@@ -1,0 +1,109 @@
+header {
+  background: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.9),
+      rgba(10, 10, 10, 0.2),
+      rgba(10, 10, 10, 0.05)
+    ),
+    url(https://www.greenbiz.com/sites/default/files/2021-04/women_tech_sstock.jpeg);
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 2rem;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0 6rem;
+  color: #000 !important;
+  letter-spacing: 3px;
+}
+.navbar {
+  background: #fff !important;
+}
+.navbar-brand span {
+  color: var(--color-primary1);
+  letter-spacing: 2px;
+}
+.navbar-nav {
+  padding: 0 3rem !important;
+}
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000 !important;
+  font-weight: 500;
+}
+.active {
+  color: var(--color-primary1) !important;
+  font-weight: bold;
+}
+/* HERO SECTION */
+.hero__container {
+  text-align: left;
+  padding-top: 8rem;
+}
+.hero__container h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.navbar-toggler-icon {
+  color: #000;
+  background: #fff;
+}
+.hero__container h1 > span {
+  color: var(--color-primary1);
+}
+.hero__container p {
+  color: rgb(216, 216, 216);
+  letter-spacing: 2px;
+}
+.btn__arena {
+  text-align: left;
+  padding-top: 2.9rem;
+  letter-spacing: 3px;
+}
+.socials {
+  padding-left: 9rem;
+}
+.socials-icons {
+  font-size: 1.4rem;
+  padding-right: 2rem;
+  color: var(--color-primary1);
+  object-fit: contain;
+}
+.socials-iconss {
+  font-size: 1.4rem;
+  padding-right: 2rem;
+  color: var(--color-primary1);
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-brand {
+    padding: 0 2rem;
+  }
+  header {
+    height: 75vh;
+  }
+  .navbar-nav{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 80vh;
+  }
+  h1 {
+    font-size: 2.5rem !important;
+  }
+}

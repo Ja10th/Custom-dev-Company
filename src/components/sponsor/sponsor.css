@@ -1,0 +1,27 @@
+.sponsor__container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.sponsor__images {
+  border-right: 1px solid rgba(128, 128, 128, 0.207);
+  background-color: linear-gradient(
+    to right,
+    rgba(10, 10, 10, 0.2),
+    rgba(10, 10, 10, 0.2)
+  );
+}
+.sponsor__images {
+  height: 120px;
+}
+@media screen and (max-width: 1024px) {
+  .sponsor__container {
+    padding-top: 5rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .sponsor__container {
+    padding-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

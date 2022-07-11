@@ -1,0 +1,19 @@
+footer {
+  background: #6bb6f3 !important;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer__navbar-logo {
+  float: left;
+}
+.socials {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    align-items: none;
+    text-align: none;
+    justify-content: none;
+  }
+}

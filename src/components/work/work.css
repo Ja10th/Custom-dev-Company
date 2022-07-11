@@ -1,0 +1,8 @@
+.Slider {
+  height: 450px;
+  box-shadow: 1px 1px 5px 1px rgb(168, 168, 168);
+  border-radius: 1.4rem;
+}
+.swiper__container {
+  margin-top: 3rem !important;
+}
